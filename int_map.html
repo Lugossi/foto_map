@@ -153,7 +153,7 @@
 
         marker.addEventListener('mouseenter', () => {
             popup.style.display = 'block';
-            popup.innerHTML = `<img src="img/${index + 1}.jpg" alt="Location ${index + 1}">`;
+            popup.innerHTML = `<img src="./img/${index + 1}.jpg" alt="Location ${index + 1}">`;
             
             if ([5, 6, 7, 8, 9].includes(index + 1)) {
                 popup.style.left = `${pos.x}px`;
